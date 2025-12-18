@@ -1,0 +1,21 @@
+STATUS:
+## main
+M  metamorfosis/Assets.xcassets/AccentColor.colorset/Contents.json
+MM metamorfosis/Assets.xcassets/AppIcon.appiconset/Contents.json
+A  metamorfosis/Assets.xcassets/AppIcon.appiconset/IMG_2145.jpeg
+A  metamorfosis/Assets.xcassets/AppIcon.appiconset/IMG_2146.jpeg
+A  metamorfosis/Assets.xcassets/AppIcon.appiconset/IMG_2148.jpeg
+A  "metamorfosis/Assets.xcassets/AppIcon.appiconset/IMG_2150 1.png"
+A  metamorfosis/Assets.xcassets/AppIcon.appiconset/IMG_2150.png
+A  "metamorfosis/Assets.xcassets/AppIcon.appiconset/Untitled design.png"
+ M metamorfosis/ContentView.swift
+ M metamorfosis/metamorfosisApp.swift
+ M metamorfosisTests/metamorfosisTests.swift
+A  metamorfosisUITests/PDFExport.swift
+A  metamorfosisUITests/Presets.swift
+ M metamorfosisUITests/metamorfosisUITests.swift
+?? audit_20251217_214112/
+?? metamorfosis/Assets.xcassets/AppIcon.appiconset/IMG_2149.jpeg
+
+LOG (20):
+af3d876 (HEAD -> main) Initial Commit

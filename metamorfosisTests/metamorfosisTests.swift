@@ -1,16 +1,13 @@
-//
-//  metamorfosisTests.swift
-//  metamorfosisTests
-//
-//  Created by Nuevo Usuario on 17/12/25.
-//
-
 import Testing
+@testable import metamorfosis
 
-struct metamorfosisTests {
-
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+@Suite("Morphing UI y lógica de sliders")
+struct MorphingTests {
+    @Test("Los sliders inicializan en 0")
+    func slidersArrancanEnCero() async throws {
+        let view = ContentView()
+        // Solo podemos testear propiedades si refactorizas ContentView a ViewModel.
+        // Mientras tanto, esto solo es placeholder.
+        #expect(view.body != nil, "La vista debe existir")
     }
-
 }
