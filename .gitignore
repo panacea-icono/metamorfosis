@@ -1,0 +1,11 @@
+
+# macOS
+.DS_Store
+
+# Xcode / Swift
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Local audit outputs
+audit_*/

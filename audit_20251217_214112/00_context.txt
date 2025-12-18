@@ -1,6 +1,0 @@
-PWD: /Users/nuevousuario/Desktop/metamorfosis/metamorfosis
-DATE: Wed Dec 17 21:41:12 -04 2025
-XCODESELECT: /Applications/Xcode.app/Contents/Developer
-XCODEBUILD:
-Xcode 26.0.1
-Build version 17A400
