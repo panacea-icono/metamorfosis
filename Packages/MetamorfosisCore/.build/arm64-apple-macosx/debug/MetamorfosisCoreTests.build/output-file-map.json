@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build/master.swiftdeps"
+  },
+  "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/Tests/MetamorfosisCoreTests/MetamorfosisCoreTests.swift": {
+    "dependencies": "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build/MetamorfosisCoreTests.d",
+    "object": "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build/MetamorfosisCoreTests.swift.o",
+    "swiftmodule": "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build/MetamorfosisCoreTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build/MetamorfosisCoreTests.swiftdeps",
+    "diagnostics": "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build/MetamorfosisCoreTests.dia"
+  }
+}

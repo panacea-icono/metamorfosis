@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "procedures": [
+    {
+      "id": "face_mvp",
+      "name": "Facial MVP",
+      "sliders": [
+        {"id":"nose_tip_rotation","name":"Punta nasal (rotación)","min":0.0,"max":1.0,"default":0.0},
+        {"id":"nose_tip_projection","name":"Punta nasal (proyección)","min":0.0,"max":1.0,"default":0.0},
+        {"id":"lip_upper_volume","name":"Labio superior (volumen)","min":0.0,"max":1.0,"default":0.0},
+        {"id":"lip_lower_volume","name":"Labio inferior (volumen)","min":0.0,"max":1.0,"default":0.0},
+        {"id":"wrinkle_nasolabial_soften","name":"Surco nasolabial (suavizar)","min":0.0,"max":1.0,"default":0.0}
+      ],
+      "presets": [
+        {
+          "id": "natural",
+          "name": "Natural",
+          "weights": {
+            "nose_tip_rotation": 0.15,
+            "nose_tip_projection": 0.10,
+            "lip_upper_volume": 0.10,
+            "lip_lower_volume": 0.08,
+            "wrinkle_nasolabial_soften": 0.12
+          }
+        }
+      ]
+    }
+  ]
+}

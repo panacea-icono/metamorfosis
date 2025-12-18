@@ -1,0 +1,644 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.xctest/Contents/MacOS/MetamorfosisCorePackageTests",
+      "packagePath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore",
+      "productName" : "MetamorfosisCorePackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.MetamorfosisCore-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCore.build/sources",
+      "importPath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/Sources/MetamorfosisCore/MetamorfosisCore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MetamorfosisCore",
+      "moduleOutputPath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/Modules/MetamorfosisCore.swiftmodule",
+      "objects" : [
+        "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCore.build/MetamorfosisCore.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCore.build/include/MetamorfosisCore-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "metamorfosiscore"
+      ],
+      "outputFileMapPath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCore.build/MetamorfosisCore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/Modules/MetamorfosisCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/Sources/MetamorfosisCore/MetamorfosisCore.swift"
+      ],
+      "tempsPath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MetamorfosisCorePackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.build/sources",
+      "importPath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/Modules/MetamorfosisCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MetamorfosisCorePackageTests",
+      "moduleOutputPath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/Modules/MetamorfosisCorePackageTests.swiftmodule",
+      "objects" : [
+        "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.build/include/MetamorfosisCorePackageTests-Swift.h",
+        "-color-diagnostics",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "metamorfosiscore"
+      ],
+      "outputFileMapPath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/Modules/MetamorfosisCorePackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MetamorfosisCoreTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build/sources",
+      "importPath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/Tests/MetamorfosisCoreTests/MetamorfosisCoreTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/Modules/MetamorfosisCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MetamorfosisCoreTests",
+      "moduleOutputPath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/Modules/MetamorfosisCoreTests.swiftmodule",
+      "objects" : [
+        "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build/MetamorfosisCoreTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "metamorfosiscore"
+      ],
+      "outputFileMapPath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build/MetamorfosisCoreTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/Modules/MetamorfosisCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/Tests/MetamorfosisCoreTests/MetamorfosisCoreTests.swift"
+      ],
+      "tempsPath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "MetamorfosisCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MetamorfosisCore",
+      "-package-name",
+      "metamorfosiscore",
+      "-c",
+      "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/Sources/MetamorfosisCore/MetamorfosisCore.swift",
+      "-I",
+      "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCore.build/include/MetamorfosisCore-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "metamorfosiscore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MetamorfosisCorePackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MetamorfosisCorePackageTests",
+      "-package-name",
+      "metamorfosiscore",
+      "-c",
+      "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.derived/runner.swift",
+      "-I",
+      "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.build/include/MetamorfosisCorePackageTests-Swift.h",
+      "-color-diagnostics",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "metamorfosiscore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MetamorfosisCoreTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MetamorfosisCoreTests",
+      "-package-name",
+      "metamorfosiscore",
+      "-c",
+      "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/Tests/MetamorfosisCoreTests/MetamorfosisCoreTests.swift",
+      "-I",
+      "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "metamorfosiscore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "MetamorfosisCore" : [
+
+    ],
+    "MetamorfosisCorePackageTests" : [
+      "MetamorfosisCoreTests",
+      "MetamorfosisCore"
+    ],
+    "MetamorfosisCoreTests" : [
+      "MetamorfosisCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/Sources/MetamorfosisCore/MetamorfosisCore.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCore.build/sources"
+    },
+    "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.build/sources"
+    },
+    "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCore.build/MetamorfosisCore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build/MetamorfosisCoreTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCorePackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/Tests/MetamorfosisCoreTests/MetamorfosisCoreTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/MetamorfosisCoreTests.build/sources"
+    },
+    "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/nuevousuario/Desktop/metamorfosis/metamorfosis/Packages/MetamorfosisCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
